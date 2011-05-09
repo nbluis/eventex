@@ -1,7 +1,10 @@
 # Django settings for eventex project.
 
+import os
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+PROJECT_DIR = os.path.dirname(__file__)
 
 ADMINS = (
     # ('Eduardo Bohrer', 'nbluisrs@gmail.com'),
@@ -106,6 +109,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_DIR, 'templates'),
 )
 
 INSTALLED_APPS = (
