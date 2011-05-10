@@ -1,0 +1,75 @@
+body {
+	font-size: 62.5%;
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background: #d5d6d7 url('../images/kubrickbgcolor.jpg');
+	color: #333;
+	text-align: center;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+}
+
+#page {
+	background: url("../images/kubrickbgwide.jpg") repeat-y top; border: none;
+	margin: 20px auto;
+	padding: 0;
+	width: 760px;
+	border: 0;
+	text-align: left;
+}
+
+#header {
+	background: #73a0c5 url('../images/kubrickheader.jpg') no-repeat bottom center;
+	margin: 0 0 0 1px;
+	padding: 0;
+	height: 200px;
+	width: 758px;
+	color:white;
+}
+
+#header div	{
+	margin: 0;
+	height: 200px;
+	width: 100%;
+}
+
+#header .description {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#header h1 {
+	font-size: 4em;
+	text-align: center;
+	padding-top: 70px;
+	margin: 0;
+}
+
+#content, #footer {
+	padding-left:25px;	
+	padding-right:25px;	
+}
+
+#content {
+	font-size: 1.2em
+	line-height: 1.4em;
+}
+
+#footer {
+	background: #eee url('../images/kubrickfooter.jpg') no-repeat top;
+	border: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 760px;
+	clear: both;
+}
+
+#footer p {
+	margin: 0;
+	padding: 18px 0;
+	text-align: center;
+}
