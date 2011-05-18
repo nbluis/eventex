@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>EventeX</title>
+        <link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" />
+    </head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<div>
+					<h1>EventeX</h1>
+					<div class="description">O melhor do melhor do melhor</div>
+				</div>
+			</div>
+			<br/>
+			<div id="content">
+            {% block content %}
+            {% endblock content %}
+			</div>
+			<div id="sidebar">
+           		<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="#">Inscrição</a></li>
+				</ul>
+			</div>
+			<br/>
+			<div id="footer">
+				<p>@2011. Eventex todos os direitos reservados.<br/>Theme Preview is proudly powered by <a href="http://wordpress.org/">WordPress</a></p>
+			</div>
+		</div>
+	</body>
+</html>

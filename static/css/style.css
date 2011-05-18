@@ -13,6 +13,14 @@ h1 {
 	font-weight: bold;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
 #page {
 	background: url("../images/kubrickbgwide.jpg") repeat-y top; border: none;
 	margin: 20px auto;
@@ -25,7 +33,7 @@ h1 {
 #header {
 	background: #73a0c5 url('../images/kubrickheader.jpg') no-repeat bottom center;
 	margin: 0 0 0 1px;
-	padding: 0;
+	padding-right: 0;
 	height: 200px;
 	width: 758px;
 	color:white;
@@ -54,9 +62,33 @@ h1 {
 	padding-right:25px;	
 }
 
+#content, #sidebar {
+	height: 220px;
+}
+
 #content {
 	font-size: 1.2em
 	line-height: 1.4em;
+	width: 570px;
+	float: left;
+}
+
+#sidebar {
+	margin-left: 640px;
+	border-left: 1px solid #E3F2F2;
+}
+
+#sidebar li {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#sidebar h3 {
+	margin-bottom:0;
+}
+
+#sidebar ul {
+	padding: 0 0 0 10px;
 }
 
 #footer {
