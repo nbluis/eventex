@@ -13,8 +13,8 @@ ADMINS = (
 MANAGERS = ADMINS
 
 #Email configuration
-#EMAIL_BACKEND =	'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_BACKEND =	'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND =	'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_BACKEND =	'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'localhost'
 EMAIL_HOST_PASSWORD	= '' 
 EMAIL_HOST_USER = ''
