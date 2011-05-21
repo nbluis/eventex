@@ -12,6 +12,14 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+#Email configuration
+#EMAIL_BACKEND =	'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND =	'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'localhost'
+EMAIL_HOST_PASSWORD	= '' 
+EMAIL_HOST_USER = ''
+EMAIL_PORT = 25
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -120,12 +128,11 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'core',
-    'subscription'
+    'subscription',
 )
 
 # A sample logging configuration. The only tangible logging

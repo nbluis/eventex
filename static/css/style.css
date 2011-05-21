@@ -13,6 +13,14 @@ h1 {
 	font-weight: bold;
 }
 
+label {
+	display:block;
+	float:left;
+	width:100px;
+	text-align:right;
+	margin:0px 5px 0px 0px;
+}
+
 a:hover {
 	text-decoration: underline;
 }

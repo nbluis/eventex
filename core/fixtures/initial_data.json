@@ -1,0 +1,20 @@
+[
+    {
+        "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "eduardobohrer", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2011-05-21 16:15:43", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "sha1$ba508$05454e4c8cc39b183da8f6e15ea29fac4dd76d12", 
+            "email": "nbluisrs@gmail.com", 
+            "date_joined": "2011-05-21 16:15:31"
+        }
+    }
+]

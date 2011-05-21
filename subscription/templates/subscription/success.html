@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Inscrição realizada com sucesso!</h1>
+<br/><br/>
+<p>Olá {{ subscription.name }},<p/>
+<p>Sua inscrição foi realizada com sucesso, obrigado por participar.</p>
+<br/><br/>
+<p>Inscrição realizada em: {{ subscription.created_at|date:"d/m/Y" }}.</p>
+{% endblock content %}
